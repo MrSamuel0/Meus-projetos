@@ -26,8 +26,23 @@ ft = bar / 30.48
 
 print(f'o tamanho da barra em cm é: {bar: .2f}, em polegadas: {inch: .2f} e em pés: {ft: .0f}')
 
+#
+
+mon = float(input('Insira o montante em reais:  '))
+
+dol = mon / 5.06
+lb = mon / 6.34
+eur = mon / 5.43
+
+print(f'O montante em reais representa: {dol: .2f}$, {lb: .2f}£ e {eur: .2f}€.')
+
 """
 
-mon = float(input('Insira o montante em reais'))
+import math
 
-dol = mon * 4.97
+b = int(input('Insira o valor de b: '))
+c = int(input('insira o valor de c: '))
+
+hip = float(math.sqrt((b ** 2) + (c ** 2)))
+
+print(f'O valor da hipotenusa é: {hip: .3f}')
